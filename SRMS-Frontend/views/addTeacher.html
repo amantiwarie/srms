@@ -1,10 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
+<div class="alert alert-danger"
+     ng-if="errorMessages.length">
+
+    <ul>
+
+        <li ng-repeat="error in errorMessages">
+
+            {{error}}
+
+        </li>
+
+    </ul>
+
+</div>
+
+
+<div>
+
+
+    <h2>Add Teacher</h2>
+
+    <form ng-submit="addTeacher()">
+        <div>
+        <label>UserName</label>
+        <input type ="text"
+        ng-model="teacher.userName"
+        required>
+    </div>
+
+        <div>
+            <label>email</label>
+            <input type ="email"
+                   ng-model="teacher.email"
+                   required>
+
+            </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input type="password"
+                   ng-model="teacher.password"
+                   class="form-control"
+                   required
+                   minlength="6">
+        </div>
+        <button>
+            save
+        </button>
+
+
+
+
+</form>
+</div>

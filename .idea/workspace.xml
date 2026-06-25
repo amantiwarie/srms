@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e670fb58-5748-4f70-8733-2c9633254eba" name="Changes" comment="" />
+    <list default="true" id="e670fb58-5748-4f70-8733-2c9633254eba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/configuration/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/controllers/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/dto/TeacherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/repositories/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/services/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Backend/src/main/java/org/app/srms/services/TeacherServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRMS-Frontend/controllers/TeacherController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRMS-Frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRMS-Frontend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRMS-Frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SRMS-Frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRMS-Frontend/views/addTeacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/SRMS-Frontend/views/addTeacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRMS-Frontend/views/teachers.html" beforeDir="false" afterPath="$PROJECT_DIR$/SRMS-Frontend/views/teachers.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +28,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -42,8 +61,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SrmsApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"

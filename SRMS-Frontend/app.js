@@ -19,12 +19,15 @@ app.config(function($routeProvider){
 
         .when("/addTeacher",{
             templateUrl:
-                "views/addTeacher.html"
+                "views/addTeacher.html",
+            controller:"TeacherController"
+
         })
 
         .when("/teachers",{
             templateUrl:
-                "views/teachers.html"
+                "views/teachers.html",
+            controller:"TeacherController"
         })
         .when("/students",{
         templateUrl:"views/student/students.html",

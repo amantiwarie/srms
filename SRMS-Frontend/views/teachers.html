@@ -1,10 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div>
+    <h1>Teachers List</h1>
+    <table >
 
-</body>
-</html>
+    <div >
+        <thead>
+        <tr>
+            <th>username</th>
+            <th>id</th>
+            <th>email</th>
+            <th>password</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr ng-repeat ="t in teachers">
+
+            <td>{{t.userName}}</td>
+            <td>{{t.id}}</td>
+            <td>{{t.email}}</td>
+            <td>{{t.password}}</td>
+            <td>
+                <button ng-click="editTeacher(t.id)">
+                    EDIT
+                </button>
+
+                <button ng-click ="deleteTeacher(t.id)">
+                    DELETE
+                </button>
+            </td>
+
+        </tr>
+        </tbody>
+    </div>
+    </table>
+</div>
